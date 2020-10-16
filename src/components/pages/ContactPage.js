@@ -5,6 +5,7 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import Image from 'react-bootstrap/Image';
 import Footer from '../Footer'
+import '../../App.css';
 
 const ContactPage = () => {
   return (
@@ -16,9 +17,9 @@ const ContactPage = () => {
       <p className="text-center w-responsive mx-auto pb-5">
         Chcesz załapać "zajawkę" ze mną? Umówić się na wspólny trening? 
         Zapraszam do niżej wymienionego kontaktu lub <br/>na social media ;) <br/>
-        Również w przypadku zainteresowania moimi projektami czy projektem Calisometric zapraszam do kontaktu czysto biznesowego.
+        Również w przypadku zainteresowania moimi projektami informatycznymi czy projektem Calisometric zapraszam do kontaktu.
       </p>
-      <div class="d-flex justify-content-center">       
+      <div className="d-flex justify-content-center">       
       <MDBRow className="text-center w-responsive mx-auto pb-5">
         <MDBCol md="12" className="text-center">
         <Image src="images/zdj2017.png" roundedCircle /><br/><br/> 

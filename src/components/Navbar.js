@@ -1,28 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import { MDBNavbar } from 'mdbreact';import './Navbar.css';
 
 function Navbar() {
+    
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
-
+    const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-    const handleClick= () => setClick(!click);
 
     const showButton = () => {
-        (window.innerWidth <= 960 ? setButton(false) : setButton(true))
+        if (window.innerWidth <= 960) {
+        setButton(false);
+        } else {
+        setButton(true);
+        }
     };
 
     useEffect(() => {
-        showButton()
-    }, [])
-
-    window.addEventListener('resize', showButton);
+        showButton();
+    }, []);
 
     return (
-        <>
-            <nav className="navbar">
+        <div>
+            <MDBNavbar className="navbar sticky-top">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                      <i className='fas fa-dumbbell'/>&nbsp;CALISOMETRIC 
@@ -49,8 +51,8 @@ function Navbar() {
                     </ul>
                     {button}
                 </div>
-            </nav>
-        </>
+            </MDBNavbar>
+        </div>
     )
 }
 

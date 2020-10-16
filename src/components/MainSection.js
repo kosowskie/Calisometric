@@ -1,25 +1,21 @@
 import React from 'react'
-import { Button } from './Button'
 import './MainSection.css'
+import Typical from 'react-typical'
 
-function MainSection() {
+class MainSection extends React.Component {
+    render(){
     return (
         <div className='main-container'>
             <video src="/videos/videoplayback-1.mp4" autoPlay loop muted />
-            <h1>asd</h1>
-            <p>dsa</p>
-            <div className="main-btns">
-                <Button className='btns'buttonStyle='btn--outline'
-                buttonSize='btn--large'>
-                    hwdp
-                </Button>
-                <Button className='btns'buttonStyle='btn--primary'
-                buttonSize='btn--large'>
-                    acab
-                </Button>
-            </div>
+            <h1>Calisometric</h1>
+            <Typical
+                steps={['Calisthenic', 1000, 'Street Workout', 1000, 'Gymnastic', 1000, 'Street Lifting', 1000]}
+                loop={Infinity}
+                wrapper="p"
+            />
         </div>
     )
+    }
 }
 
 export default MainSection

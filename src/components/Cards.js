@@ -5,38 +5,40 @@ import CardItem from './CardItem'
 function Cards() {
     return (
         <div className='cards'>
-            <h1>9871111</h1>
+            <h1>Naucz się prostych progresji, które umożliwią Ci naukę pierwszych figur/skilli</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                            src="images/img1.jpg"
-                            text="fhsdfyysdfydfgzydgddszysdz
-                            ysdddysfyddyydfydfydxfyxdydxgyxdygx"
-                            label='dfadgaga'
+                            src="images/img-muscle-up.jpg"
+                            text="Progresje, które nauczą cię Muscle Up-a (wejście siłowe)"
+                            label='Amator'
                             path='/services'
                         />
                         <CardItem 
-                            src="images/img2.jpg"
-                            text="dxyfyxydfgxyfghxxyfgyfgxyfg
-                            xyfgxyfgxyfgxyfgxyfgxxyfguyfgxyg"
-                            label='daf'
+                            src="images/img-backlever.jpg"
+                            text="Progresje, które nauczą cię Backlever (wagę tyłem)"
+                            label='Początkujący'
                             path='/services'
                         />
                     </ul>
                     <ul className="cards__items">
                         <CardItem 
-                            src="images/img3.jpg"
-                            text="fhsdfyysdfydfgzydgddszysdz
-                            ysdddysfyddyydfydfydxfyxdydxgyxdygx"
-                            label='dfadgaga'
+                            src="images/img-human-flag.jpg"
+                            text="Progresje, które nauczą cię Human-flag (ludzkiej flagi)"
+                            label='Początkujący/Średnio-zaawansowany'
                             path='/services'
                         />
                         <CardItem 
-                            src="images/img4.jpg"
-                            text="dxyfyxydfgxyfghxxyfgyfgxyfg
-                            xyfgxyfgxyfgxyfgxyfgxxyfguyfgxyg"
-                            label='daf'
+                            src="images/img-dragon-flag.jpg"
+                            text="Progresje, które nauczą cię dragon-flag (smoczej flagi). Ćwiczenia, które wykonywał sam Bruce Lee!"
+                            label='Amator/początkujący'
+                            path='/services'
+                        />
+                        <CardItem 
+                            src="images/img-handstand.jpg"
+                            text="Progresje, które nauczą cię handstand'a (stanie na rękach)."
+                            label='Amator/początkujący'
                             path='/services'
                         />
                     </ul>
