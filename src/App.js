@@ -7,6 +7,9 @@ import AboutME from './components/pages/AboutME';
 import Skills from './components/pages/Skills';
 import ContactPage from './components/pages/ContactPage';
 import CV from './components/pages/CV';
+import Muscleup from './components/pages/Muscleup';
+import Footer from './components/Footer'
+import Backlever from './components/pages/Backlever'
 
 function App() {
   return (
@@ -19,7 +22,10 @@ function App() {
           <Route path='/skills' exact component = {Skills} />
           <Route path='/contact' exact component = {ContactPage} />
           <Route path='/portfolio' exact component = {CV} />
+          <Route path='/muscle-up' exact component = {Muscleup} />
+          <Route path='/backlever' exact component = {Backlever} />
         </Switch>
+        <Footer />
       </Router>
     </>);
 }

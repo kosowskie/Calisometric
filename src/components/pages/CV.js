@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image';
 import './CV.css';
-import Footer from '../Footer';
 import PDFViewer from './PDFViewer'
 
 function CV() {
@@ -12,8 +11,8 @@ function CV() {
             <a className="download-cv" href='documents/CV E.Kosowski.pdf' download>Pobierz pdf</a>
             <button onClick={PDFViewer}>Zobacz PDF</button>
         </div>
-        <Footer />
         </>
+        
     )
 }
 

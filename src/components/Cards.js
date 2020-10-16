@@ -13,13 +13,13 @@ function Cards() {
                             src="images/img-muscle-up.jpg"
                             text="Progresje, które nauczą cię Muscle Up-a (wejście siłowe)"
                             label='Amator'
-                            path='/services'
+                            path='/muscle-up'
                         />
                         <CardItem 
                             src="images/img-backlever.jpg"
                             text="Progresje, które nauczą cię Backlever (wagę tyłem)"
                             label='Początkujący'
-                            path='/services'
+                            path='/backlever'
                         />
                     </ul>
                     <ul className="cards__items">

@@ -4,7 +4,6 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import Image from 'react-bootstrap/Image';
-import Footer from '../Footer'
 import '../../App.css';
 
 const ContactPage = () => {
@@ -42,7 +41,6 @@ const ContactPage = () => {
       </MDBRow>
       </div>
     </MDBContainer>
-    <Footer />
     </>
   );
 }

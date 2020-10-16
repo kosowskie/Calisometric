@@ -27,8 +27,8 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Figury</h2>
-            <Link to='/'>Muscle up</Link>
-            <Link to='/'>Backlever</Link>
+            <Link to='/muscle-up'>Muscle up</Link>
+            <Link to='/backlever'>Backlever</Link>
             <Link to='/'>Human-flag</Link>
             <Link to='/'>Dragon-flag</Link>
             <Link to='/'>Handstand</Link>
