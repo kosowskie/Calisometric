@@ -47,7 +47,7 @@ class MainSection extends React.Component {
                             dobre parę lat temu. Natomiast wszystko było nieregularne i 
                             mało efektywne. Ponad rok (...)
                         </p>
-                        <MDBBtn color="primary" size="md">
+                        <MDBBtn color="primary" size="md" href="./o-mnie">
                             Czytaj dalej
                         </MDBBtn>
                     </MDBCol>
@@ -76,7 +76,7 @@ class MainSection extends React.Component {
                             handstand (stanie na rękach), backlever (waga tyłem), 
                             human-flag (ludzka flaga) czy dragon-flag (smocza flaga).
                         </p>
-                        <MDBBtn color="primary" size="md">
+                        <MDBBtn color="primary" size="md" href="./skills" >
                             Zobacz
                         </MDBBtn>
                     </MDBCol>

@@ -48,6 +48,11 @@ function Navbar() {
                                 Skills
                             </Link>
                         </li>
+                        <li className='nav-item'>
+                            <Link to='/skills' className='nav-links' onClick={closeMobileMenu}>
+                                Stwórz rozpiskę
+                            </Link>
+                        </li>
                     </ul>
                     {button}
                 </div>

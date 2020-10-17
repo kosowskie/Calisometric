@@ -10,6 +10,7 @@ import CV from './components/pages/CV';
 import Muscleup from './components/pages/Muscleup';
 import Footer from './components/Footer'
 import Backlever from './components/pages/Backlever'
+import Workout from './components/pages/Workout'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/portfolio' exact component = {CV} />
           <Route path='/muscle-up' exact component = {Muscleup} />
           <Route path='/backlever' exact component = {Backlever} />
+          <Route path='/workout' exact component = {Workout} />
         </Switch>
         <Footer />
       </Router>
