@@ -1,9 +1,16 @@
 import React from 'react'
 import { MDBMedia } from 'mdbreact'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 function Backlever() {
     return (
-        <>
+        <><br/>
+        <Container fluid>
+        <Row>
+            <Col sm={2}/>
+            <Col sm={8}>
             <h1>Ćwiczenia główne</h1>
             <MDBMedia list className="mt-3">
                 <MDBMedia tag="li">
@@ -68,6 +75,9 @@ function Backlever() {
                     </MDBMedia>
                 </MDBMedia> <br/>
             </MDBMedia>
+            </Col>
+            </Row>
+        </Container>
         </>
     )
 }

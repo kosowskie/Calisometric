@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image';
-import './CV.css';
+import './Styles.css';
 import PDFViewer from './PDFViewer'
 
 function CV() {
